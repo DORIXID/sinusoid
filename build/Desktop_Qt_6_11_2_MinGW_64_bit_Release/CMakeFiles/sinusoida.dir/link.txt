@@ -1,0 +1,3 @@
+C:\PROGRAMS\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\sinusoida.dir/objects.a
+C:\PROGRAMS\QT\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\sinusoida.dir/objects.a @CMakeFiles\sinusoida.dir\objects1.rsp
+C:\PROGRAMS\QT\Tools\mingw1310_64\bin\g++.exe -O3 -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\sinusoida.dir/objects.a -Wl,--no-whole-archive -o sinusoida.exe -Wl,--out-implib,libsinusoida.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sinusoida.dir\linkLibs.rsp

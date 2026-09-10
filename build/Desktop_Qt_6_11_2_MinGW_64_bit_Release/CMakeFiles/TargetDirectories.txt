@@ -1,0 +1,9 @@
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/sinusoida.dir
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/edit_cache.dir
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/rebuild_cache.dir
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/list_install_components.dir
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/install.dir
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/install/local.dir
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/install/strip.dir
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/sinusoida_autogen_timestamp_deps.dir
+Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Release/CMakeFiles/sinusoida_autogen.dir
