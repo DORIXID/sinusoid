@@ -22,10 +22,15 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     pen.setWidth(5);
     pen.setColor(Qt::red);
     series->setPen(pen);
+    QPen pointPen = pointSeries->pen();
+    pointSeries->setMarkerSize(12);
+    pointPen.setWidth(1);
+    pointSeries->setPen(pointPen);
+
 
     //Points config
-    chart->addSeries(pointSeries);
     chart->addSeries(series);
+    chart->addSeries(pointSeries);
 
     series->setPointsVisible(false);
     //X
@@ -41,7 +46,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     series->attachAxis(axisY);
     pointSeries->attachAxis(axisY);
 
-    for(double variableX = -20.0; variableX<20.0; variableX += 0.3){
+    for(double variableX = -10.0; variableX<11.0; variableX += 0.3){
         series->append(variableX, sin(variableX));
         std::cout << variableX << " " << sin(variableX) << "\n";
     }
@@ -52,6 +57,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     discoAnimTimer = new QTimer(this);
     connect(discoAnimTimer, &QTimer::timeout, this, &MainWindow::drawPoints);
     connect(series, &QLineSeries::hovered, this, &MainWindow::onHoverPoint);
+    connect(pointSeries, &QScatterSeries::hovered, this, &MainWindow::onUnhoverPoint);
 
     ui->widgetPlot->setChart(chart);
 }
@@ -62,8 +68,10 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::drawPoints(){
+    incrementX +=0.101;
+
     series->clear();
-    for(double variableX = -20.0; variableX<20.0; variableX += 0.3, MainWindow::incrementX +=0.001){
+    for(double variableX = -10.0; variableX<11.0; variableX += 0.3){
         series->append(variableX, sin(variableX + incrementX));
         std::cout << variableX << " " << sin(variableX + incrementX) << "\n";
         pointSeries->clear();
@@ -88,9 +96,14 @@ void MainWindow::onHoverPoint(const QPointF &point, bool state)
         ui->label_2->setText("x = " + QString::number(point.x()) + "\ny = " + QString::number(std::sin(point.x() + incrementX)));
         pointSeries->clear();
         pointSeries->append(point.x(), std::sin(point.x() + incrementX));
-    } else {
-        // ui->label_2->setText("Неопределены");
+    }
+}
 
+void MainWindow::onUnhoverPoint(const QPointF &point, bool state)
+{
+    if (!state){
+        ui->label_2->setText("Неопределены");
+        pointSeries->clear();
     }
 }
 

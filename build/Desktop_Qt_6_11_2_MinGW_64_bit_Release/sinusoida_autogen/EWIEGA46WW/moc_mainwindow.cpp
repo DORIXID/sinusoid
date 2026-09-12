@@ -45,7 +45,8 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "onHoverPoint",
         "QPointF",
         "point",
-        "state"
+        "state",
+        "onUnhoverPoint"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -55,6 +56,10 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onHoverPoint'
         QtMocHelpers::SlotData<void(const QPointF &, bool)>(4, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { 0x80000000 | 5, 6 }, { QMetaType::Bool, 7 },
+        }}),
+        // Slot 'onUnhoverPoint'
+        QtMocHelpers::SlotData<void(const QPointF &, bool)>(8, 2, QMC::AccessPrivate, QMetaType::Void, {{
             { 0x80000000 | 5, 6 }, { QMetaType::Bool, 7 },
         }}),
     };
@@ -83,6 +88,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 0: _t->on_pushButton_pressed(); break;
         case 1: _t->on_pushButton_released(); break;
         case 2: _t->onHoverPoint((*reinterpret_cast<std::add_pointer_t<QPointF>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[2]))); break;
+        case 3: _t->onUnhoverPoint((*reinterpret_cast<std::add_pointer_t<QPointF>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[2]))); break;
         default: ;
         }
     }
@@ -107,14 +113,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 4;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        _id -= 4;
     }
     return _id;
 }

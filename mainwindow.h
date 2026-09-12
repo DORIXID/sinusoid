@@ -27,6 +27,8 @@ private slots:
 
     void onHoverPoint(const QPointF &point, bool state);
 
+    void onUnhoverPoint(const QPointF &point, bool state);
+
 private:
     Ui::MainWindow *ui;
     double incrementX = 0.0;
