@@ -37,9 +37,10 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(1166, 744);
+        MainWindow->resize(1291, 744);
         MainWindow->setMinimumSize(QSize(745, 588));
         MainWindow->setBaseSize(QSize(745, 588));
+        MainWindow->setAcceptDrops(true);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         QSizePolicy sizePolicy(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
@@ -49,25 +50,26 @@ public:
         centralwidget->setSizePolicy(sizePolicy);
         widgetMain = new QWidget(centralwidget);
         widgetMain->setObjectName("widgetMain");
-        widgetMain->setGeometry(QRect(10, 10, 1151, 701));
+        widgetMain->setGeometry(QRect(10, 0, 1271, 711));
         widgetPlot = new QChartView(widgetMain);
         widgetPlot->setObjectName("widgetPlot");
-        widgetPlot->setGeometry(QRect(10, 0, 1131, 651));
+        widgetPlot->setGeometry(QRect(0, 0, 1051, 691));
         widgetPlot->setMouseTracking(true);
         pushButton = new QPushButton(widgetMain);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(0, 660, 141, 24));
+        pushButton->setGeometry(QRect(1060, 670, 141, 24));
         pushButton->setCheckable(false);
         label = new QLabel(widgetMain);
         label->setObjectName("label");
-        label->setGeometry(QRect(160, 660, 103, 16));
+        label->setGeometry(QRect(1060, 622, 103, 16));
         label_2 = new QLabel(widgetMain);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(270, 660, 161, 16));
+        label_2->setGeometry(QRect(1060, 637, 121, 31));
+        label_2->setAlignment(Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1166, 21));
+        menubar->setGeometry(QRect(0, 0, 1291, 21));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -82,8 +84,8 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "disco", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "\320\232\320\276\320\276\321\200\320\264\320\270\320\275\320\260\321\202\320\260 \321\202\320\276\321\207\320\272\320\270:", nullptr));
-        label_2->setText(QCoreApplication::translate("MainWindow", "\320\275\320\265\320\276\320\277\321\200\320\265\320\264\320\265\320\273\320\265\320\275\320\260", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "\320\232\320\276\320\276\321\200\320\264\320\270\320\275\320\260\321\202\321\213 \321\202\320\276\321\207\320\272\320\270:", nullptr));
+        label_2->setText(QCoreApplication::translate("MainWindow", "\320\275\320\265\320\276\320\277\321\200\320\265\320\264\320\265\320\273\320\265\320\275\321\213", nullptr));
     } // retranslateUi
 
 };

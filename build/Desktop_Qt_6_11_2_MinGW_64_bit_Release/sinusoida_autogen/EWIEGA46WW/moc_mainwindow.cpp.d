@@ -4,11 +4,13 @@ Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/build/Desktop_Qt_6_11_2_MinGW_64_bit_Rele
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QAbstractSeries \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QChartGlobal \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QLineSeries \
+  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QScatterSeries \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QXYSeries \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qabstractaxis.h \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qabstractseries.h \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qchartglobal.h \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qlineseries.h \
+  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qscatterseries.h \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qtcharts-config.h \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qtchartsexports.h \
   C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qxyseries.h \

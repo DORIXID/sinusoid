@@ -405,6 +405,8 @@ CMakeFiles/sinusoida.dir/main.cpp.obj: \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCore/QObject \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtGui/QBrush \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtGui/QImage \
+ C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QScatterSeries \
+ C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qscatterseries.h \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtWidgets/QApplication \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtWidgets/qapplication.h \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCore/qcoreapplication.h \

@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QLineSeries>
+#include <QScatterSeries>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -31,6 +32,8 @@ private:
     double incrementX = 0.0;
     void drawPoints();
     QLineSeries *series = new QLineSeries();
+    QScatterSeries *pointSeries = new QScatterSeries();
+    QWidget *coordinatesWidget = new QWidget();
     QTimer *discoAnimTimer;
 };
 #endif // MAINWINDOW_H

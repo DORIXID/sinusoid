@@ -5,11 +5,13 @@ Z:/PROJECTS/CPP/QT/Sinusoida/sinusoida/mainwindow.h
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QAbstractSeries
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QChartGlobal
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QLineSeries
+ mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QScatterSeries
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QXYSeries
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qabstractaxis.h
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qabstractseries.h
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qchartglobal.h
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qlineseries.h
+ mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qscatterseries.h
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qtcharts-config.h
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qtchartsexports.h
  mdp:C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qxyseries.h

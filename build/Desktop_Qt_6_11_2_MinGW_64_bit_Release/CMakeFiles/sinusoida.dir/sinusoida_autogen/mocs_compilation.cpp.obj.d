@@ -406,6 +406,8 @@ CMakeFiles/sinusoida.dir/sinusoida_autogen/mocs_compilation.cpp.obj: \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCore/QObject \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtGui/QBrush \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtGui/QImage \
+ C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/QScatterSeries \
+ C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCharts/qscatterseries.h \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCore/qtmochelpers.h \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCore/qtmocconstants.h \
  C:/PROGRAMS/QT/6.11.2/mingw_64/include/QtCore/q20algorithm.h
